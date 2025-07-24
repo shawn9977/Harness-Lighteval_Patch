@@ -1,5 +1,5 @@
 diff --git a/examples/model_configs/vllm_model_config.yaml b/examples/model_configs/vllm_model_config.yaml
-index 66714a29..54058d56 100644
+index 66714a29..2df9ed07 100644
 --- a/examples/model_configs/vllm_model_config.yaml
 +++ b/examples/model_configs/vllm_model_config.yaml
 @@ -1,13 +1,15 @@
@@ -23,7 +23,7 @@ index 66714a29..54058d56 100644
    seed: 42
    trust_remote_code: False
    use_chat_template: True
-@@ -16,7 +18,7 @@ model_parameters:
+@@ -16,19 +18,19 @@ model_parameters:
    pairwise_tokenization: False
    subfolder: null
    max_num_seqs: 1
@@ -32,7 +32,12 @@ index 66714a29..54058d56 100644
    is_async: false
    generation_parameters:
      presence_penalty: 0.0
-@@ -28,7 +30,7 @@ model_parameters:
+     repetition_penalty: 1.0
+     frequency_penalty: 0.0
+-    temperature: 0.0
++    temperature: 0.6
+     top_k: null
+     min_p: 0.0
      top_p: 0.9
      seed: 42
      stop_tokens: null
