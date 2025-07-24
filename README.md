@@ -1,4 +1,4 @@
-# Harness_Patch
+# 1. Harness_Patch
 ## Checkout harness
 git clone https://github.com/EleutherAI/lm-evaluation-harness  
 cd lm-evaluation-harness  
@@ -13,7 +13,7 @@ git apply 0001-My-custom-modifications-for-patch.patch
 
   
 
-# Lighteval_Patch  
+# 2. Lighteval_Patch  
 ## Checkout lighteval  
 git clone https://github.com/huggingface/lighteval.git  
 cd lighteval  
