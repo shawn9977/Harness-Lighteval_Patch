@@ -12,3 +12,12 @@ git apply 0001-My-custom-modifications-for-patch.patch
   
 
 # Lighteval_Patch  
+git clone https://github.com/huggingface/lighteval.git  
+cd lighteval  
+git checkout d805f9fa0a84da9ca4c0c6a638bbed149a7012a3  
+
+
+  
+
+git apply --check 0002-My-custom-modifications-for-patch.patch      
+git apply 0002-My-custom-modifications-for-patch.patch      
